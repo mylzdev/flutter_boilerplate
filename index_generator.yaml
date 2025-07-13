@@ -1,0 +1,21 @@
+index_generator:
+  exclude:
+    - '**.g.dart'
+    - '**_state.dart'
+    - '**_event.dart'
+  # Define the paths of the folders in which to generate the index files
+  libraries:
+  # APP
+    - directory_path: lib/src/app/
+
+  # CONFIG
+    - directory_path: lib/src/config/constant
+
+  # CORE
+    - directory_path: lib/src/core/navigation
+    - directory_path: lib/src/core/extensions
+    - directory_path: lib/src/core/utils
+    - directory_path: lib/src/core/services
+    - directory_path: lib/src/core/enums
+    - directory_path: lib/src/core/errors
+    - directory_path: lib/src/core/widgets
